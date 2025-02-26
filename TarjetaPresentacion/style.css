@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle, #2c2c2c, #000000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    width: 320px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    text-align: center;
+    padding: 40px 20px;
+    color: #ffffff;
+  }
+  
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .name {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #ddd;
+  }
+  
+  .description {
+    font-size: 14px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+    padding: 0 10px;
+  }
+  
+  .social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 16px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  /* Colores base para cada botón */
+  .github {
+    background-color: #333;
+  }
+  
+  .instagram {
+    background-color: #E1306C;
+  }
+  
+  .youtube {
+    background-color: #FF0000;
+  }
+  
+  /* Efecto de expansión al pasar el mouse */
+  .social-links a:hover {
+    transform: scale(1.6
+    );
+    background-color: #555;
+  }
+  
